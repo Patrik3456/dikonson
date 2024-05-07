@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Úvodní strana</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/Reset.css">
+    <link rel="stylesheet" href="../CSS/Responsive.css">
+</head>
+<body>
+<header>
+    <div id="nav-bar">                          
+        <div class="nav-bar-menu">
+            <a href="Main_page.html" class="logo">
+                <img src="../Pictures/Logo.png" alt="logo" width="80" height="80">
+            </a>        
+            <ul class="menu">
+                <li>
+                    <a href="Download.html" id="download-button">
+                        <span>
+                            Download
+                        </span>
+                    </a>
+                </li>   
+                <li>
+                    <a href="About_us.html">
+                        <span>
+                            O nás
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="About_app.html">
+                        <span>
+                            O aplikaci
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Contact.html">
+                        <span>
+                            Kontakty
+                        </span>
+                    </a>
+                </li>           
+            </ul>
+            <div id="loginStatus">
+            <a href="Log_in.html"  id="button" onclick="toggleLogin()">
+                <span>
+                    Přihlásit se
+                </span>
+            </a>
+            </div>        
+        </div>           
+    </div>
+</header>
+
+<main id="main-mp">
+    <img src="../Pictures/cicii.jpg" alt="Main_page_image" width="200%"><!--zde bude jinačí fotka-->
+    
+</main>
+<footer>
+<div class="container">
+    <ul class="footer-menu">
+        <li class="footer-item">
+            <a href="About_us.html">
+                About us
+            </a>
+        </li>
+        <li class="footer-item">
+            <a href="">
+                About app
+            </a>
+        </li>
+        <li class="footer-item">
+            <a href="Contact_us.html">
+                Contact us
+            </a>
+        </li>
+        <li class="footer-item">
+            <a href="Log_in.html">
+                Log in
+            </a>
+        </li>
+        <li class="footer-item">
+            <a href="Sign_up.html">
+                Ask for Access
+            </a>
+        </li>
+    </ul>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+<script src="../JavaScript/To_top.js"></script>
+<script src="../JavaScript/Header_scroll.js"></script>
+<script src="../JavaScript/Log_in_button.js"></script>
+</footer>
+</body>
+</html>
