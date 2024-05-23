@@ -11,10 +11,10 @@ $mail = new PHPMailer(true);
 try {
     $mail->SMTPDebug = 2;
     $mail->isSMTP();
-    $mail->Host = 'live.smtp.mailtrap.io';
+    $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'api';
-    $mail->Password = 'c0a424281326d10162dcddc46d453e9c';
+    $mail->Username = 'patrikvaleska@gmail.com';
+    $mail->Password = 'hoggovnov07';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
